@@ -23,6 +23,8 @@
     "@angular/router": "^4.0.0",
     "core-js": "^2.4.1",
     "rxjs": "^5.4.1",
+    "echarts": "^4.1.0",
+    "ngx-echarts": "^4.0.0",
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
@@ -34,6 +36,8 @@
     "@types/node": "~6.0.60",
     "codelyzer": "~3.0.1",
     "jasmine-core": "~2.6.2",
+    "echarts": "^4.1.0",
+    "ngx-echarts": "^4.0.0",
     "jasmine-spec-reporter": "~4.1.0",
     "karma": "~1.7.0",
     "karma-chrome-launcher": "~2.1.1",
