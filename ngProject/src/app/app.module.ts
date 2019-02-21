@@ -31,6 +31,8 @@ import { SysOptionComponent } from './demo02/sys-option/sys-option.component';
 import { SysOpinionComponent } from './demo02/sys-opinion/sys-opinion.component';
 import { LecturerBannerBoxComponent } from './demo02/src/app/demo02/lecturer-banner-box/lecturer-banner-box.component';
 import { LecturerApplyComponent } from './demo02/src/app/demo02/lecturer-apply/lecturer-apply.component';
+import { TrainingPlanDetailReportAddComponent } from './demo02/src/app/demo02/training-plan-detail-report-add/training-plan-detail-report-add.component';
+import { TrainingPlanDetailReportExportComponent } from './demo02/src/app/demo02/training-plan-detail-report-export/training-plan-detail-report-export.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -63,6 +65,8 @@ import { LecturerApplyComponent } from './demo02/src/app/demo02/lecturer-apply/l
     SysOpinionComponent,
     LecturerBannerBoxComponent,
     LecturerApplyComponent,
+    TrainingPlanDetailReportAddComponent,
+    TrainingPlanDetailReportExportComponent,
 
   ],
   imports: [
