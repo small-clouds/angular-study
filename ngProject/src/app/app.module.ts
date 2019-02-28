@@ -33,6 +33,15 @@ import { LecturerBannerBoxComponent } from './demo02/src/app/demo02/lecturer-ban
 import { LecturerApplyComponent } from './demo02/src/app/demo02/lecturer-apply/lecturer-apply.component';
 import { TrainingPlanDetailReportAddComponent } from './demo02/src/app/demo02/training-plan-detail-report-add/training-plan-detail-report-add.component';
 import { TrainingPlanDetailReportExportComponent } from './demo02/src/app/demo02/training-plan-detail-report-export/training-plan-detail-report-export.component';
+import { IcbcComponent } from './src/app/icbc/icbc.component';
+import { YearplanComponent } from './icbc/src/app/icbc/yearplan/yearplan.component';
+import { YearplanAddComponent } from './icbc/yearplan/src/app/icbc/yearplan/yearplan-add/yearplan-add.component';
+import { YearplanEditComponent } from './icbc/yearplan/src/app/icbc/yearplan/yearplan-edit/yearplan-edit.component';
+import { YearplanFormComponent } from './icbc/yearplan/src/app/icbc/yearplan/yearplan-form/yearplan-form.component';
+import { PlanComponent } from './icbc/src/app/icbc/plan/plan.component';
+import { PlanAddComponent } from './icbc/plan/src/app/icbc/plan/plan-add/plan-add.component';
+import { PlanEditComponent } from './icbc/plan/src/app/icbc/plan/plan-edit/plan-edit.component';
+import { PlanFormComponent } from './icbc/plan/src/app/icbc/plan/plan-form/plan-form.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -67,6 +76,15 @@ import { TrainingPlanDetailReportExportComponent } from './demo02/src/app/demo02
     LecturerApplyComponent,
     TrainingPlanDetailReportAddComponent,
     TrainingPlanDetailReportExportComponent,
+    IcbcComponent,
+    YearplanComponent,
+    YearplanAddComponent,
+    YearplanEditComponent,
+    YearplanFormComponent,
+    PlanComponent,
+    PlanAddComponent,
+    PlanEditComponent,
+    PlanFormComponent,
 
   ],
   imports: [
