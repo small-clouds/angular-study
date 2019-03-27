@@ -29,19 +29,26 @@ import { SysProblemEditComponent } from './demo02/sys-problem-edit/sys-problem-e
 import { SysProblemFormComponent } from './demo02/sys-problem-form/sys-problem-form.component';
 import { SysOptionComponent } from './demo02/sys-option/sys-option.component';
 import { SysOpinionComponent } from './demo02/sys-opinion/sys-opinion.component';
-import { LecturerBannerBoxComponent } from './demo02/src/app/demo02/lecturer-banner-box/lecturer-banner-box.component';
-import { LecturerApplyComponent } from './demo02/src/app/demo02/lecturer-apply/lecturer-apply.component';
-import { TrainingPlanDetailReportAddComponent } from './demo02/src/app/demo02/training-plan-detail-report-add/training-plan-detail-report-add.component';
-import { TrainingPlanDetailReportExportComponent } from './demo02/src/app/demo02/training-plan-detail-report-export/training-plan-detail-report-export.component';
-import { IcbcComponent } from './src/app/icbc/icbc.component';
-import { YearplanComponent } from './icbc/src/app/icbc/yearplan/yearplan.component';
-import { YearplanAddComponent } from './icbc/yearplan/src/app/icbc/yearplan/yearplan-add/yearplan-add.component';
-import { YearplanEditComponent } from './icbc/yearplan/src/app/icbc/yearplan/yearplan-edit/yearplan-edit.component';
-import { YearplanFormComponent } from './icbc/yearplan/src/app/icbc/yearplan/yearplan-form/yearplan-form.component';
-import { PlanComponent } from './icbc/src/app/icbc/plan/plan.component';
-import { PlanAddComponent } from './icbc/plan/src/app/icbc/plan/plan-add/plan-add.component';
-import { PlanEditComponent } from './icbc/plan/src/app/icbc/plan/plan-edit/plan-edit.component';
-import { PlanFormComponent } from './icbc/plan/src/app/icbc/plan/plan-form/plan-form.component';
+import { LecturerBannerBoxComponent } from './demo02/lecturer-banner-box/lecturer-banner-box.component';
+import { LecturerApplyComponent } from './demo02/lecturer-apply/lecturer-apply.component';
+import { TrainingPlanDetailReportAddComponent } from './demo02/training-plan-detail-report-add/training-plan-detail-report-add.component';
+import { TrainingPlanDetailReportExportComponent } from './demo02/training-plan-detail-report-export/training-plan-detail-report-export.component';
+import { IcbcComponent } from './icbc/icbc.component';
+import { YearplanComponent } from './icbc/yearplan/yearplan.component';
+import { YearplanAddComponent } from './icbc/yearplan/yearplan-add/yearplan-add.component';
+import { YearplanEditComponent } from './icbc/yearplan/yearplan-edit/yearplan-edit.component';
+import { YearplanFormComponent } from './icbc/yearplan/yearplan-form/yearplan-form.component';
+import { PlanComponent } from './icbc/plan/plan.component';
+import { PlanAddComponent } from './icbc/plan/plan-add/plan-add.component';
+import { PlanEditComponent } from './icbc/plan/plan-edit/plan-edit.component';
+import { PlanFormComponent } from './icbc/plan/plan-form/plan-form.component';
+import { PlanManagerComponent } from './icbc/plan-manager/plan-manager.component';
+import { PlanViewComponent } from './icbc/plan-manager/plan-view/plan-view.component';
+import { CreditsManagerComponent } from './icbc/credits-manager/credits-manager.component';
+import { CreditsSettingComponent } from './icbc/credits-setting/credits-setting.component';
+import { CreaditAddComponent } from './icbc/creadit-add/creadit-add.component';
+import { CreaditFormComponent } from './icbc/creadit-form/creadit-form.component';
+import { CreaditEditComponent } from './icbc/creadit-edit/creadit-edit.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -85,6 +92,13 @@ import { PlanFormComponent } from './icbc/plan/src/app/icbc/plan/plan-form/plan-
     PlanAddComponent,
     PlanEditComponent,
     PlanFormComponent,
+    PlanManagerComponent,
+    PlanViewComponent,
+    CreditsManagerComponent,
+    CreditsSettingComponent,
+    CreaditAddComponent,
+    CreaditFormComponent,
+    CreaditEditComponent,
 
   ],
   imports: [
